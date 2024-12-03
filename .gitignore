@@ -8,8 +8,6 @@ __init__.pyc
 
 # Virtual Environment
 env/
-venv/
-ENV/
 
 # IDE
 .vscode/
