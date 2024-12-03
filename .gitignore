@@ -1,3 +1,16 @@
-env/
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.Python
+__init__.pyc
+
+# Virtual Environment
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
