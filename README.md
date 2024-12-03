@@ -28,5 +28,5 @@ github_token: "your-github-token"
 ```
 ## Usage
 ```bash
-Copypython main.py
+python main.py
 ```
