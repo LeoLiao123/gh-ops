@@ -14,6 +14,12 @@ class CodeReviewer:
             issues.append("Contains print statements")
         if re.search(r'TODO|FIXME', content):
             issues.append("Contains TODO/FIXME comments")
+        if re.search(r'import\s+\w+\s*$', content):
+            issues.append("Contains unused import statements")
+        if re.search(r'\b[a-zA-Z]{1,2}\b', content):
+            issues.append("Contains poorly named variables (too short)")
+        if re.search(r'\b\d+\b', content):
+            issues.append("Contains magic numbers")
         
         return issues
 
