@@ -23,7 +23,7 @@ pip install -r requirements.txt
 ## Configuration
 Create a `config.yaml` file in the root directory:
 ```yaml
-yamlCopygithub_token: "your-github-token"
+github_token: "your-github-token"
 
 ```
 ## Usage
