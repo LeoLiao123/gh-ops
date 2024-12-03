@@ -1,4 +1,4 @@
-from ..github_client import GitHubClient
+from ..core.github_client import GitHubClient
 from collections import Counter
 
 class StatsGenerator:

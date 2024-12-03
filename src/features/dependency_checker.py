@@ -1,5 +1,5 @@
+from ..core.github_client import GitHubClient
 import yaml
-from ..github_client import GitHubClient
 
 class DependencyChecker:
     def __init__(self, token: str):
